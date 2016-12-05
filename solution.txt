@@ -1,0 +1,35 @@
+ 1613  cd command-line-murder-mystery
+ 1614  cat instructions
+ 1615  ls
+ 1616  cd mystery
+ 1617  ls
+ 1618  grep clue crimescene
+ 1619  grep -i clue crimescene
+ 1620  grep -i Annabel people
+ 1621  cat hint1
+ 1622  ls
+ 1623  cat ../hint1
+ 1624  cat ../hint2
+ 1625  cat ../hint3
+ 1626  cat ../hint4
+ 1627  cat ../hint5
+ 1628  head -n 40 streets/hart_place | tail -n 1
+ 1629  cat interviews/interview-47246024
+ 1630  head -n 179 streets/Buckingha_place | tail -n 1
+ 1631  head -n 179 streets/buckingha_place | tail -n 1
+ 1632  head -n 179 streets/buckingham_place | tail -n 1
+ 1633  cat interviews/interview-699607
+ 1634  head -n 20 vehicles
+ 1635  grep -A 5 L337 vehicles
+ 1636  cd memberships
+ 1637  ls
+ 1638  cat AAA Delta_skymiles Museum_of_Bash_History Terminal_City_Library library.txt |grep Erika Owens |wc -l
+ 1639  cat AAA Delta_skymiles Museum_of_Bash_History Terminal_City_Library library.txt |grep Joe Germuska |wc -l
+ 1640  cat AAA Delta_skymiles Museum_of_Bash_History Terminal_City_Library library.txt |grep Jeremy Bowers |wc -l
+ 1641  cat AAA Delta_skymiles Museum_of_Bash_History Terminal_City_Library library.txt |grep Jacqui Maher |wc -l
+ 1642  grep -i Jacqui Maher people
+ 1643  grep -i Jacqui Maher ../people
+ 1644  grep -i Jeremy Bowers ../people
+ 1645  cd ..
+ 1646  touch solution.txt
+The murderer is Jeremy Bowers
